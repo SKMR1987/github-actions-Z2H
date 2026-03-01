@@ -1,4 +1,4 @@
-# This is worflow name
+# This is workflow name
 name: Hello
 
 # run on a trigger
@@ -9,15 +9,14 @@ on:
 # These are jobs inside the workflow
 jobs:
 
-# This is the name of the job
-greet:
+  # This is the name of the job
+    greet:
 
-# This is a github runner
-  runs-on: ubuntu-latest
-  
-  steps:
-    -name: say hello to users
-     run: echo "Hello Dosto"
-
-    -name: say hello to username
-     run: echo "Hello $USER"
+    # This is a github runner
+      runs-on: ubuntu-latest
+      steps:
+        -name: say hello to users
+         run: echo "Hello Dosto"
+         
+        -name: say hello to username
+         run: echo "Hello $USER"
