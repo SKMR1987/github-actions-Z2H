@@ -17,9 +17,9 @@ greet:
   
   steps:
     -name: say hello to users
-      run: echo "Hello Dosto"
+     run: echo "Hello Dosto"
 
-     -name: say hello to username
-      run: echo "Hello USER"
+    -name: say hello to username
+     run: echo "Hello USER"
       
       
